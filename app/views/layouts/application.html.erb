@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>tbrushwyler</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+		<%= csrf_meta_tags %>
+		<%= render 'layouts/shim' %>
+	</head>
+	<body class="no-js">
+		<div class="section group header">
+			<div class="col span_1_of_3 social"></div>
+			<div class="col span_1_of_3">
+				<a href="/">
+					<div class="logo-circle">
+						<h1>tbrushwyler</h1>
+					</div>
+				</a>
+			</div>
+			<div class="col span_1_of_3 social"></div>
+		</div>
+		<div class="content">
+			<%= yield %>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+// Place all the styles related to the StaticPagesController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* #home */
+
+div.projects {
+	font-size: 0;
+
+	div.project {
+		width: 50%;
+		display: inline-block;
+		font-size: 20px;
+		text-align: center;
+
+		img.all-media {
+			margin-left: 10%;
+			width: 80%;
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+}

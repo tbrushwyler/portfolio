@@ -1,0 +1,13 @@
+$linkColor: #555;
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+	&:visited {
+		color: $linkColor;
+	}
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

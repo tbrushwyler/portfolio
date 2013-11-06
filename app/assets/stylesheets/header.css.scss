@@ -1,0 +1,53 @@
+.logo-circle {
+	background: rgb(255, 255, 255);
+	border-radius: 20%;
+	cursor: pointer;
+	position: relative;
+	margin: 0 auto;
+	width: 15em;
+	height: 15em;
+	overflow: hidden;
+	transform: translateZ(0);
+}
+
+.logo-circle h1 {
+	color: rgba(185, 185, 185, 1);
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-size: 1.6em;
+	line-height: 8.2em;
+	text-align: center;
+	-webkit-font-smoothing: antialiased;
+	user-select: none;
+	transition: color 0.8s ease-in-out;
+	text-decoration: none!important;
+}
+
+.logo-circle:before,
+.logo-circle:after {
+	border-radius: 40%;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	transition: box-shadow 0.75s;
+	box-shadow: inset 0.86em 0 0 rgba(208, 101, 3, 0.5),  
+                inset -0.86em 0 0 rgba(22, 145, 190, 0.5),
+                inset 0 0.86em 0 rgba(233, 147, 26, 0.5),
+                inset 0 -0.86em 0 rgba(22, 107, 162, 0.5);
+}
+
+.logo-circle:after {
+	transform: rotate(45deg);
+}
+
+.logo-circle:hover:before,
+.logo-circle:hover:after {
+	box-shadow: none;
+}
+
+.logo-circle:hover h1 {
+	color: rgba(120, 120, 120, 1);
+}
