@@ -12,19 +12,41 @@
 .project-description {
 	padding: 20px;
 	text-align: center;
+	color: #333;
 
 	div {
 		text-align: left;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 1.5em;
+	}
+
+	h1 {
+		text-transform: uppercase;
+		letter-spacing: -1px;
+		font-size: 60px;
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
 	}
 
 	div.overview {
 		width: 80%;
 		margin-left: 10%;
 
+		img {
+			width: 30%;
+		}
+
 		div.text {
 			vertical-align: top;
 			display: inline-block;
 			padding-left: 20px;
+			width: 70%;
 
 			h1 {
 				font-weight: bolder;
@@ -32,7 +54,11 @@
 		}
 	}
 
-	img {
-		max-width: 320px;
+	div.server {
+
+		img#server_config {
+			width: 80%!important;
+			margin-left: 10%;
+		}
 	}
 }

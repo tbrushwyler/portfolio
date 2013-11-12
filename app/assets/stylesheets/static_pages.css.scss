@@ -30,8 +30,11 @@ div.projects {
 			margin-bottom: 20px;
 		}
 
-		a:visited {
+		a {
 			color: white;
+			&:visited {
+				color: white;
+			}
 		}
 
 		div.technologies {

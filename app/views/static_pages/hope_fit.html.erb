@@ -1,9 +1,16 @@
 <div class="project-description">
 	<div class="overview">
-		<%= image_tag "hope_fit/logo.png", alt: "HopeFit", class: "logo" %>
-		<div class="text">
-			<h1>HopeFit</h1>
-			<p>In conjunction with the Hope College Kinesiology department...</p>
+		<h1>HopeFit</h1>
+		<h2>An Android and web app to track fitness</h2>
+		<%= image_tag "hope_fit/logo.png", alt: "HopeFit", class: "logo" %><!--
+		--><div class="text">
+			<p>During the summer research program at Hope College, we were tasked with continuing the development of an Android application for the Kinesiology department. This application would help the teachers keep track of their students' progress and would allow the students to easily track their workouts, goals, and biometrics. We wrote the application itself in Java using the Android SDK.</p><p>I wrote the server and database code in Java as well, using Java Server Pages. During the first part of the summer, I spent most of my time working on the API for the server.</p><p>During the middle of the summer, we worked on an Android tablet application that could be used to visualize the data. This application was primarily concerned with data visualization for teachers and had to use the server API to receive this data.</p><p>I spent the final part of the summer making a web app that would be available for both Android and iOS phones as well as a desktop browser. I built this app from the ground up in HTML5, CSS3, and JavaScript, using JSP for the back-end. The web app has much of the functionality available in the Android app.</p>
+			<p>In conjunction with the Hope College Kinesiology department, along with two other students, I created a paperless workout recording system.</p>
 		</div>
+	</div>
+	<div class="server">
+		<h1>Server</h1>
+		<%= image_tag "hope_fit/server_config.png", alt: "HopeFit Server Configuration", id: "server_config" %>
+		<p>One of my main tasks was to write the code that is run on the server. The goal was to synchronize the Android app's local database with a central database hosted by Hope. To do this, we needed to track modifications locally and upload them to the server. Also, the server needed to handle the web application by populating the appropriate pages with the user's data.</p>
 	</div>
 </div>
