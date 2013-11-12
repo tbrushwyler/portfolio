@@ -6,12 +6,22 @@
 
 div.projects {
 	font-size: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	vertical-align: top;
+
+	h1 {
+		margin-left: 5%;
+		font-size: 40px;
+	}
 
 	div.project {
 		width: 50%;
 		display: inline-block;
 		font-size: 20px;
 		text-align: center;
+		letter-spacing: 0.5px;
 
 		img.all-media {
 			margin-left: 10%;
@@ -19,5 +29,37 @@ div.projects {
 			display: block;
 			margin-bottom: 20px;
 		}
+
+		a:visited {
+			color: white;
+		}
+
+		div.technologies {
+			width: 100%;
+			margin-top: 20px;
+			text-align: center;
+			font-size: 0;
+
+			img {
+				height: 80px;
+				display: inline-block;
+				margin-left: 20px;
+
+				&:first-of-type {
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+#main-projects {
+	color: white!important;
+	background-color: #0376B8;
+}
+
+#other-projects {
+	div.project {
+		margin-left: 25%;
 	}
 }

@@ -11,3 +11,33 @@ a {
 		text-decoration: underline;
 	}
 }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.footer {
+	font-size: 24px;
+	width: 100%;
+	padding: 20px;
+
+	ul {
+		list-style: none;
+		float: right;
+		margin: 0;
+
+		li {
+			display: inline;
+			margin-left: 10px;
+		}
+	}
+
+	a {
+		color: #0376B8;
+	}
+}

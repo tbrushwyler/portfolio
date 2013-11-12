@@ -1,6 +1,7 @@
 Portfolio::Application.routes.draw do
   root 'static_pages#home'
   match '/hope-fit', to: 'static_pages#hope_fit', via: 'get'
+  match '/resume', to: 'static_pages#resume', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

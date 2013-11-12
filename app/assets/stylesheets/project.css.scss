@@ -1,0 +1,38 @@
+.header.small {
+	padding: 20px;
+	background-color: #0376B8;
+	color: white!important;
+	text-align: center;
+
+	a {
+		color: white!important;
+	}
+}
+
+.project-description {
+	padding: 20px;
+	text-align: center;
+
+	div {
+		text-align: left;
+	}
+
+	div.overview {
+		width: 80%;
+		margin-left: 10%;
+
+		div.text {
+			vertical-align: top;
+			display: inline-block;
+			padding-left: 20px;
+
+			h1 {
+				font-weight: bolder;
+			}
+		}
+	}
+
+	img {
+		max-width: 320px;
+	}
+}

@@ -10,6 +10,14 @@
 	transform: translateZ(0);
 }
 
+.header {
+	a {
+		&:hover {
+			text-decoration: none!important;
+		}
+	}
+}
+
 .logo-circle h1 {
 	color: rgba(185, 185, 185, 1);
 	font-family: 'Lato', sans-serif;
